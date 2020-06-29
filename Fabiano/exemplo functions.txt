@@ -10,6 +10,8 @@ DELIMITER $$
 create function retorna_MSG(cTEXTO char(20)) returns char(50)
 
 return concat('ola', cTEXTO, ', Tudo Bem')
-
-
 $$
+
+//retorna odiia da semana em numeros
+
+SELECT DAYOFWEEK(pedidos_full.data_pedido) from pedidos_full
