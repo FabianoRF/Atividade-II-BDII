@@ -1,0 +1,11 @@
+Relatorio BDII 
+
+feito no spyder do anaconda
+
+1 - importar biblios
+2 - instalar apyori
+
+Parametros do apriori: 1- registros, suporte mínimo, confiabilidade
+mínima, lift min, largura mínima
+
+

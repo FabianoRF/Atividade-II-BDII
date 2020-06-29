@@ -1,0 +1,15 @@
+Functions em mysql;
+
+- utilizar delimiter, delimita tudo qque esta dentro de $$
+- returns fala ate onde pode se delimitar o retorno
+- return é o retorno devido
+
+ex:
+DELIMITER $$
+
+create function retorna_MSG(cTEXTO char(20)) returns char(50)
+
+return concat('ola', cTEXTO, ', Tudo Bem')
+
+
+$$

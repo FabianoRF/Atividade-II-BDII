@@ -1,0 +1,12 @@
+Comandos sql utilizados:
+
+passo 2: 
+
+ALTER TABLE pedidos_full DROP COLUMN numero
+ALTER TABLE pedidos_full DROP COLUMN cliente
+ALTER TABLE pedidos_full DROP COLUMN endereco
+ALTER TABLE pedidos_full DROP COLUMN telefone 
+ALTER TABLE pedidos_full DROP COLUMN tipo_entrega
+ALTER TABLE pedidos_full DROP COLUMN valor_pizza
+ALTER TABLE pedidos_full DROP COLUMN valor_entrega
+
