@@ -25,3 +25,11 @@ RETURNS Varchar(20)
         RETURN dia;
 	END;
 $$
+
+
+
+****************
+
+ALTER TABLE pedidos_full ALTER COLUMN data_pedido Varchar(20); //Altera o campo data de "data_pedido" para string  
+
+UPDATE pedidos_full SET data_pedido = (SELECT aletra_Data(DAYOFWEEK(pedidos_full.data_pedido)) FROM pedidos_full); //transfroma a data "xx/yy/zzzz" em dia da semana "Quinta"
