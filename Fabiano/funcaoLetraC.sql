@@ -14,7 +14,7 @@ DELIMITER $$
         SET hora = 'Pico';
 
         ELSE
-        SET hora = 'Pico';
+        SET hora = 'Fim';
         END IF;
 
         RETURN hora;
