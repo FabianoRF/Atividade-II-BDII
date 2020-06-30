@@ -1,6 +1,6 @@
 DELIMITER $$
 
-    CREATE FUNCTION tranformaEmIntervalo( hora_entrega TIME ) 
+    CREATE FUNCTION transformaEmIntervalo( hora_entrega TIME ) 
     RETURNS varchar(20)
 
     BEGIN
