@@ -1,6 +1,7 @@
 DELIMITER $$
-CREATE FUNCTION altera_Data(numero_dia INT)
-RETURNS Varchar(20)
+
+	CREATE FUNCTION altera_Data(numero_dia INT)
+	RETURNS Varchar(20)
 
 	BEGIN
     
@@ -27,7 +28,7 @@ RETURNS Varchar(20)
 $$
 
 
-SELECT aletra_Data(DAYOFWEEK(pedidos_full.data_pedido)) FROM pedidos_full //select
+SELECT altera_Data(DAYOFWEEK(pedidos_full.data_pedido)) FROM pedidos_full //select
 
 ALTER TABLE pedidos_full ALTER COLUMN data_pedido Varchar(20); //Altera o campo data de "data_pedido" para string  
 
